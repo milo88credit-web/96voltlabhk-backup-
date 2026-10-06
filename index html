@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+  >
+
+  <!-- ==========================================
+       SEO
+  =========================================== -->
+
+  <title>VoltLab HK｜新會員專屬｜專屬會員禮遇</title>
+
+  <meta
+    name="description"
+    content="想搵平靚正？VoltLab HK 精選多款人氣科技產品及實用配件，配合不同生活需要，發掘更多新會員專屬優惠。"
+  >
+
+  <meta
+    name="robots"
+    content="index, follow"
+  >
+
+  <link
+    rel="canonical"
+    href="https://96voltlabhk.vercel.app/"
+  >
+
+
+  <!-- ==========================================
+       OPEN GRAPH
+       Telegram / WhatsApp / Facebook
+  =========================================== -->
+
+  <meta
+    property="og:type"
+    content="website"
+  >
+
+  <meta
+    property="og:title"
+    content="VoltLab HK｜新會員專屬｜專屬會員禮遇"
+  >
+
+  <meta
+    property="og:description"
+    content="想搵平靚正？VoltLab HK 精選多款人氣科技產品及實用配件，配合不同生活需要，發掘更多新會員專屬優惠。"
+  >
+
+  <meta
+    property="og:url"
+    content="https://96voltlabhk.vercel.app/"
+  >
+
+  <meta
+    property="og:locale"
+    content="zh_HK"
+  >
+
+  <meta
+    property="og:site_name"
+    content="VoltLab HK"
+  >
+
+  <meta
+    name="theme-color"
+    content="#050713"
+  >
+
+
+  <style>
+
+    /* ==========================================
+       RESET
+    =========================================== */
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html,
+    body {
+      width: 100%;
+      min-height: 100%;
+    }
+
+    body {
+
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        "PingFang TC",
+        "Microsoft JhengHei",
+        "Noto Sans TC",
+        Arial,
+        sans-serif;
+
+      background: #050713;
+
+      color: #ffffff;
+
+      overflow-x: hidden;
+    }
+
+
+    /* ==========================================
+       HERO
+    =========================================== */
+
+    .hero {
+
+      position: relative;
+
+      width: 100%;
+      min-height: 100svh;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      padding:
+        max(40px, env(safe-area-inset-top))
+        24px
+        max(40px, env(safe-area-inset-bottom));
+
+      overflow: hidden;
+
+      background:
+
+        radial-gradient(
+          circle at 72% 20%,
+          rgba(69, 79, 181, 0.20) 0%,
+          rgba(35, 41, 112, 0.10) 24%,
+          transparent 48%
+        ),
+
+        radial-gradient(
+          circle at 20% 75%,
+          rgba(97, 54, 143, 0.12) 0%,
+          transparent 42%
+        ),
+
+        radial-gradient(
+          circle at 50% 48%,
+          rgba(198, 157, 71, 0.035) 0%,
+          transparent 35%
+        ),
+
+        linear-gradient(
+          145deg,
+          #03050d 0%,
+          #080b1b 42%,
+          #0b1026 68%,
+          #040610 100%
+        );
+    }
+
+
+    /* ==========================================
+       SUBTLE NEBULA
+    =========================================== */
+
+    .nebula {
+
+      position: absolute;
+
+      width: 850px;
+      height: 850px;
+
+      left: 50%;
+      top: 50%;
+
+      transform:
+        translate(-50%, -50%);
+
+      border-radius: 50%;
+
+      background:
+
+        radial-gradient(
+          circle,
+          rgba(83, 93, 184, 0.09) 0%,
+          rgba(47, 53, 124, 0.045) 30%,
+          transparent 68%
+        );
+
+      filter: blur(10px);
+
+      pointer-events: none;
+    }
+
+
+    /* ==========================================
+       STARS
+    =========================================== */
+
+    .stars,
+    .stars::before,
+    .stars::after {
+
+      position: absolute;
+
+      inset: 0;
+
+      content: "";
+
+      pointer-events: none;
+    }
+
+
+    .stars {
+
+      background-image:
+
+        radial-gradient(
+          circle at 14% 18%,
+          rgba(255,255,255,.85) 0 1px,
+          transparent 1.8px
+        ),
+
+        radial-gradient(
+          circle at 25% 73%,
+          rgba(255,225,153,.65) 0 1px,
+          transparent 1.8px
+        ),
+
+        radial-gradient(
+          circle at 36% 28%,
+          rgba(255,255,255,.55) 0 1px,
+          transparent 1.8px
+        ),
+
+        radial-gradient(
+          circle at 48% 14%,
+          rgba(255,232,170,.70) 0 1px,
+          transparent 1.8px
+        ),
+
+        radial-gradient(
+          circle at 63% 24%,
+          rgba(255,255,255,.60) 0 1px,
+          transparent 1.8px
+        ),
+
+        radial-gradient(
+          circle at 79% 17%,
+          rgba(255,219,130,.72) 0 1px,
+          transparent 1.8px
+        ),
+
+        radial-gradient(
+          circle at 88% 40%,
+          rgba(255,255,255,.58) 0 1px,
+          transparent 1.8px
+        ),
+
+        radial-gradient(
+          circle at 83% 77%,
+          rgba(255,228,160,.68) 0 1px,
+          transparent 1.8px
+        ),
+
+        radial-gradient(
+          circle at 68% 87%,
+          rgba(255,255,255,.48) 0 1px,
+          transparent 1.8px
+        ),
+
+        radial-gradient(
+          circle at 41% 84%,
+          rgba(255,229,160,.56) 0 1px,
+          transparent 1.8px
+        ),
+
+        radial-gradient(
+          circle at 11% 63%,
+          rgba(255,255,255,.50) 0 1px,
+          transparent 1.8px
+        );
+    }
+
+
+    /* ==========================================
+       LARGER STARS
+    =========================================== */
+
+    .star {
+
+      position: absolute;
+
+      width: 4px;
+      height: 4px;
+
+      border-radius: 50%;
+
+      background: #fff0bd;
+
+      box-shadow:
+        0 0 5px #ffe5a1,
+        0 0 14px rgba(255, 213, 117, .55);
+
+      opacity: .75;
+
+      animation:
+        twinkle 3.4s
+        ease-in-out
+        infinite;
+    }
+
+
+    .star.s1 {
+      top: 18%;
+      left: 16%;
+    }
+
+    .star.s2 {
+      top: 30%;
+      right: 15%;
+      animation-delay: .8s;
+    }
+
+    .star.s3 {
+      bottom: 22%;
+      left: 22%;
+      animation-delay: 1.5s;
+    }
+
+    .star.s4 {
+      bottom: 17%;
+      right: 18%;
+      animation-delay: 2.1s;
+    }
+
+
+    @keyframes twinkle {
+
+      0%,
+      100% {
+        opacity: .35;
+        transform: scale(.75);
+      }
+
+      50% {
+        opacity: 1;
+        transform: scale(1.25);
+      }
+    }
+
+
+    /* ==========================================
+       DECORATIVE ORBITS
+    =========================================== */
+
+    .orbit {
+
+      position: absolute;
+
+      border-radius: 50%;
+
+      border:
+        1px solid rgba(216, 178, 91, 0.16);
+
+      pointer-events: none;
+    }
+
+
+    .orbit.one {
+
+      width: 620px;
+      height: 620px;
+
+      top: -390px;
+      right: -170px;
+    }
+
+
+    .orbit.two {
+
+      width: 480px;
+      height: 480px;
+
+      bottom: -340px;
+      left: -170px;
+    }
+
+
+    /* ==========================================
+       CONTENT
+    =========================================== */
+
+    .content {
+
+      position: relative;
+      z-index: 5;
+
+      width: 100%;
+      max-width: 760px;
+
+      text-align: center;
+    }
+
+
+    /* ==========================================
+       TITLE
+    =========================================== */
+
+    .title {
+
+      color: #f9f9fb;
+
+      font-size:
+        clamp(45px, 6vw, 82px);
+
+      line-height: 1.05;
+
+      font-weight: 900;
+
+      letter-spacing: 5px;
+
+      text-shadow:
+        0 7px 28px rgba(0, 0, 0, .45);
+    }
+
+
+    /* ==========================================
+       888 EXPERIENCE
+    =========================================== */
+
+    .offer {
+
+      margin-top: 27px;
+
+      display: flex;
+
+      align-items: baseline;
+      justify-content: center;
+
+      gap: 12px;
+
+      white-space: nowrap;
+    }
+
+
+    .number {
+
+      font-size:
+        clamp(88px, 12vw, 150px);
+
+      line-height: .92;
+
+      font-weight: 950;
+
+      letter-spacing: -5px;
+
+      background:
+        linear-gradient(
+          180deg,
+          #fff5c7 0%,
+          #f2d27b 24%,
+          #d6a83f 58%,
+          #a96e18 100%
+        );
+
+      -webkit-background-clip: text;
+      background-clip: text;
+
+      -webkit-text-fill-color: transparent;
+
+      filter:
+        drop-shadow(
+          0 0 18px rgba(224, 177, 70, .18)
+        );
+    }
+
+
+    .experience {
+
+      font-size:
+        clamp(28px, 4.5vw, 52px);
+
+      line-height: 1;
+
+      font-weight: 900;
+
+      letter-spacing: 2px;
+
+      background:
+        linear-gradient(
+          180deg,
+          #fff2c2,
+          #d7aa4d
+        );
+
+      -webkit-background-clip: text;
+      background-clip: text;
+
+      -webkit-text-fill-color: transparent;
+    }
+
+
+    /* ==========================================
+       GOLD LINE
+    =========================================== */
+
+    .gold-line {
+
+      width: 170px;
+      height: 1px;
+
+      margin:
+        27px
+        auto
+        29px;
+
+      background:
+        linear-gradient(
+          90deg,
+          transparent,
+          rgba(232, 194, 105, .75),
+          transparent
+        );
+
+      box-shadow:
+        0 0 12px rgba(220, 172, 64, .22);
+    }
+
+
+    /* ==========================================
+       DESCRIPTION
+    =========================================== */
+
+    .description {
+
+      color: rgba(255,255,255,.74);
+
+      font-size:
+        clamp(15px, 2vw, 19px);
+
+      line-height: 1.8;
+
+      letter-spacing: .5px;
+
+      font-weight: 500;
+    }
+
+
+    .description strong {
+
+      color: #e4bd62;
+
+      font-weight: 800;
+    }
+
+
+    /* ==========================================
+       CTA AREA
+    =========================================== */
+
+    .actions {
+
+      width: 100%;
+      max-width: 560px;
+
+      margin:
+        40px
+        auto
+        0;
+    }
+
+
+    /* ==========================================
+       MAIN CTA
+    =========================================== */
+
+    .primary {
+
+      position: relative;
+
+      width: 100%;
+      min-height: 82px;
+
+      display: flex;
+
+      align-items: center;
+      justify-content: center;
+
+      border-radius: 25px;
+
+      background:
+        linear-gradient(
+          180deg,
+          #ffffff 0%,
+          #f4f3ef 100%
+        );
+
+      color: #090d18;
+
+      text-decoration: none;
+
+      font-size: 20px;
+
+      font-weight: 900;
+
+      letter-spacing: 1px;
+
+      box-shadow:
+        0 20px 50px rgba(0, 0, 0, .30),
+        0 0 30px rgba(255,255,255,.04);
+
+      transition:
+        transform .18s ease,
+        box-shadow .18s ease;
+    }
+
+
+    .primary:hover {
+
+      transform: translateY(-2px);
+
+      box-shadow:
+        0 24px 58px rgba(0, 0, 0, .38),
+        0 0 35px rgba(255,255,255,.07);
+    }
+
+
+    .primary:active {
+
+      transform: scale(.985);
+    }
+
+
+    /* ==========================================
+       CTA ARROW
+    =========================================== */
+
+    .arrow {
+
+      position: absolute;
+
+      right: 17px;
+
+      width: 52px;
+      height: 52px;
+
+      display: flex;
+
+      align-items: center;
+      justify-content: center;
+
+      border-radius: 50%;
+
+      background: #e9e9e5;
+
+      color: #111827;
+
+      font-size: 27px;
+
+      font-weight: 500;
+
+      transition:
+        transform .2s ease;
+    }
+
+
+    .primary:hover .arrow {
+
+      transform: translateX(3px);
+    }
+
+
+    /* ==========================================
+       WHATSAPP ICON BUTTON
+    =========================================== */
+
+    .whatsapp {
+
+      width: 50px;
+      height: 50px;
+
+      margin:
+        20px
+        auto
+        0;
+
+      display: flex;
+
+      align-items: center;
+      justify-content: center;
+
+      border-radius: 50%;
+
+      color: #e2bb61;
+
+      text-decoration: none;
+
+      border:
+        1px solid rgba(220, 177, 77, .42);
+
+      background:
+        rgba(10, 13, 27, .60);
+
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+
+      box-shadow:
+        0 8px 25px rgba(0,0,0,.22),
+        inset 0 1px 0 rgba(255,255,255,.05);
+
+      transition:
+        transform .18s ease,
+        background .18s ease,
+        box-shadow .18s ease;
+    }
+
+
+    .whatsapp:hover {
+
+      transform:
+        translateY(-2px)
+        scale(1.04);
+
+      background:
+        rgba(28, 31, 47, .80);
+
+      box-shadow:
+        0 10px 30px rgba(0,0,0,.30),
+        0 0 18px rgba(213, 168, 65, .12);
+    }
+
+
+    .whatsapp svg {
+
+      width: 25px;
+      height: 25px;
+
+      fill: currentColor;
+    }
+
+
+    /* ==========================================
+       MOBILE
+    =========================================== */
+
+    @media (max-width: 600px) {
+
+      .hero {
+
+        padding:
+          max(45px, env(safe-area-inset-top))
+          20px
+          max(35px, env(safe-area-inset-bottom));
+      }
+
+
+      .content {
+        max-width: 430px;
+      }
+
+
+      .title {
+
+        font-size: 47px;
+
+        letter-spacing: 3px;
+      }
+
+
+      .offer {
+
+        margin-top: 25px;
+
+        gap: 8px;
+      }
+
+
+      .number {
+
+        font-size: 92px;
+
+        letter-spacing: -5px;
+      }
+
+
+      .experience {
+
+        font-size: 31px;
+
+        letter-spacing: 1px;
+      }
+
+
+      .gold-line {
+
+        margin-top: 24px;
+        margin-bottom: 25px;
+
+        width: 130px;
+      }
+
+
+      .description {
+
+        font-size: 15px;
+
+        line-height: 1.7;
+      }
+
+
+      .actions {
+
+        margin-top: 34px;
+      }
+
+
+      .primary {
+
+        min-height: 72px;
+
+        border-radius: 21px;
+
+        font-size: 18px;
+      }
+
+
+      .arrow {
+
+        right: 12px;
+
+        width: 48px;
+        height: 48px;
+
+        font-size: 24px;
+      }
+
+
+      .whatsapp {
+
+        width: 47px;
+        height: 47px;
+
+        margin-top: 17px;
+      }
+
+
+      .whatsapp svg {
+
+        width: 23px;
+        height: 23px;
+      }
+
+
+      .orbit.one {
+
+        width: 410px;
+        height: 410px;
+
+        top: -280px;
+        right: -210px;
+      }
+
+
+      .orbit.two {
+
+        width: 340px;
+        height: 340px;
+
+        bottom: -250px;
+        left: -180px;
+      }
+
+    }
+
+
+    /* ==========================================
+       SMALL MOBILE
+    =========================================== */
+
+    @media (max-width: 360px) {
+
+      .title {
+        font-size: 41px;
+      }
+
+
+      .number {
+        font-size: 79px;
+      }
+
+
+      .experience {
+        font-size: 27px;
+      }
+
+
+      .description {
+        font-size: 14px;
+      }
+
+
+      .primary {
+        min-height: 68px;
+      }
+
+    }
+
+
+    /* ==========================================
+       REDUCED MOTION
+    =========================================== */
+
+    @media (prefers-reduced-motion: reduce) {
+
+      .star {
+        animation: none;
+      }
+
+      .primary,
+      .arrow,
+      .whatsapp {
+        transition: none;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+
+<body>
+
+  <main class="hero">
+
+
+    <!-- BACKGROUND -->
+
+    <div class="nebula"></div>
+
+    <div class="stars"></div>
+
+    <span class="star s1"></span>
+    <span class="star s2"></span>
+    <span class="star s3"></span>
+    <span class="star s4"></span>
+
+    <div class="orbit one"></div>
+    <div class="orbit two"></div>
+
+
+    <!-- CONTENT -->
+
+    <section class="content">
+
+
+      <!-- TITLE -->
+
+      <h1 class="title">
+        新人禮遇
+      </h1>
+
+
+      <!-- 888 體驗 -->
+
+      <div class="offer">
+
+        <span class="number">
+          888
+        </span>
+
+        <span class="experience">
+          體驗
+        </span>
+
+      </div>
+
+
+      <!-- LINE -->
+
+      <div class="gold-line"></div>
+
+
+      <!-- DESCRIPTION -->
+
+      <p class="description">
+
+        註冊即拎，免費領取你嘅
+
+        <strong>
+          新人禮遇
+        </strong>
+
+      </p>
+
+
+      <!-- ACTIONS -->
+
+      <div class="actions">
+
+
+        <!-- MAIN CTA -->
+
+        <a
+          class="primary"
+          href="https://96jqk.com/?ag=kfbads003"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+
+          <span>
+            立即加入
+          </span>
+
+          <span
+            class="arrow"
+            aria-hidden="true"
+          >
+            →
+          </span>
+
+        </a>
+
+
+        <!-- WHATSAPP ICON ONLY -->
+
+        <a
+          class="whatsapp"
+          href="https://t.ly/tvdaO"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="WhatsApp"
+          title="WhatsApp"
+        >
+
+          <svg
+            viewBox="0 0 32 32"
+            aria-hidden="true"
+          >
+
+            <path
+              d="M16.01 3C8.83 3 3 8.67 3 15.65c0 2.46.73 4.86 2.1 6.91L3 29l6.65-2.06a13.18 13.18 0 0 0 6.36 1.64C23.18 28.58 29 22.92 29 15.65 29 8.67 23.18 3 16.01 3Zm0 23.45c-2.05 0-4.05-.54-5.79-1.57l-.42-.25-3.95 1.22 1.28-3.75-.27-.43a10.45 10.45 0 0 1-1.73-5.77c0-5.81 4.88-10.54 10.88-10.54 6 0 10.88 4.73 10.88 10.54 0 5.82-4.88 10.55-10.88 10.55Zm5.97-7.89c-.33-.16-1.94-.93-2.24-1.04-.3-.11-.52-.16-.74.16-.22.32-.85 1.04-1.04 1.25-.19.22-.38.24-.71.08-.33-.16-1.38-.49-2.63-1.57-.97-.84-1.63-1.88-1.82-2.2-.19-.32-.02-.49.14-.65.15-.14.33-.38.49-.57.16-.19.22-.32.33-.54.11-.22.05-.41-.03-.57-.08-.16-.74-1.73-1.01-2.37-.27-.64-.54-.55-.74-.56h-.63c-.22 0-.57.08-.88.41-.3.32-1.15 1.09-1.15 2.66 0 1.57 1.18 3.09 1.34 3.3.16.22 2.32 3.44 5.62 4.82.79.33 1.4.53 1.88.68.79.24 1.5.21 2.07.13.63-.09 1.94-.77 2.21-1.52.27-.75.27-1.39.19-1.52-.08-.14-.3-.22-.63-.38Z"
+            />
+
+          </svg>
+
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+</body>
+
+</html>
